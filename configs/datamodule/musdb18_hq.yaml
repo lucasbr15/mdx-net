@@ -12,9 +12,6 @@ dim_t: ${model.dim_t}  # number of stft frames
 overlap: ${model.overlap}
 
 source_names:
-  - bass
-  - drums
-  - other
   - vocals
 target_name: ${model.target_name}
 
