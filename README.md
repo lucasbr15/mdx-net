@@ -25,7 +25,7 @@ For validation data you only need 2 audio files per track and folder, one called
 
 Inside the data folder there is a folder called train, put your training track folders and validation track folders inside the train folder.
 
-Sign up to https://wandb.ai/site . one you are logged in go to https://wandb.ai/settings and copy your API key.
+Sign up to https://wandb.ai/site . once you are logged in go to https://wandb.ai/settings and copy your API key.
 
 Open the .env.example file and after wandb_api_key= paste your API key then after data_dir= enter your data folder path (not train folder path)
 
