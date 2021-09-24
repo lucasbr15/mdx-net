@@ -2,9 +2,8 @@
 
 ## 0. Environment
 
-- Ubuntu 20.04
-- at least four cuda-able GPUs (each >= 2080ti)
-- 1 TB disk storage for data augmentation
+- I used Ubuntu 18.04 for training the model
+- at least one cuda-able GPU (>= 2080ti)
 - wandb for logging
 
 Also, you ***must*** create .env file by copying .env.sample to set environmental variables.
