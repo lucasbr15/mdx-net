@@ -14,4 +14,3 @@ callbacks:
 
 datamodule:
   external_datasets:
-    - test
