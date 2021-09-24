@@ -1,5 +1,7 @@
 # KUIELab-MDX-Net
 
+- This is a modified KUIELab-MDX-Net repo to train a vocal model with just the vocals and instrumental (no bass, drums or other stem needed)
+
 ## 0. Environment
 
 - I used Ubuntu 18.04 for training the model
