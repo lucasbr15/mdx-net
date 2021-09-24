@@ -47,7 +47,10 @@ Copy the command below to start training
 
 python run.py experiment=multigpu_vocals model=ConvTDFNet_vocals
 
-## 4. Extra information
+## 4. Separation
+https://github.com/kuielab/mdx-net-submission/tree/leaderboard_B
+
+## 5. Extra information
 
 You might want to or need to change the batch size in configs/experiment/multigpu_vocals.yaml depending on your PC, the default batch size is 6 that works on a 16gb gpu
 
