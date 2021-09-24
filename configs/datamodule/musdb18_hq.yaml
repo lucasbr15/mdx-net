@@ -23,8 +23,8 @@ num_workers: 0
 pin_memory: False
 
 aug_params:
-  - 2   # maximum pitch shift in semitones (-x < shift param < x)
-  - 20  # maximum time stretch percentage (-x < stretch param < x)
+  - 0   # maximum pitch shift in semitones (-x < shift param < x)
+  - 0  # maximum time stretch percentage (-x < stretch param < x)
 
 validation_set:
   - Actions - One Minute Smile
