@@ -12,7 +12,7 @@ from pathlib import Path
 from tqdm import tqdm
 
 warnings.simplefilter(action='ignore', category=Warning)
-source_names = ['vocals', 'drums', 'bass', 'other']
+source_names = ['vocals', 'other']
 sample_rate = 44100
 
 def main (args):
