@@ -40,7 +40,7 @@ class MusdbDataset(Dataset):
     __metaclass__ = ABCMeta
 
     def __init__(self, data_dir, chunk_size):
-        self.source_names = ['other', 'vocals']
+        self.source_names = ['npi-voc', 'pi']
         self.chunk_size = chunk_size
         self.musdb_path = Path(data_dir)
 
@@ -83,7 +83,7 @@ class MusdbTrainDataset(MusdbDataset):
                 for track_name in sorted(os.listdir(dataset)):
                     if track_name not in valid_track_names:
                         track_path = dataset.joinpath(track_name)
-                        track_length = load_wav(track_path.joinpath('vocals.wav')).shape[-1]
+                        track_length = load_wav(track_path.joinpath('pi.wav')).shape[-1]
                         metadata.append((track_path, track_length))
                 torch.save(metadata, metadata_cache)
 
