@@ -12,8 +12,8 @@ dim_t: ${model.dim_t}  # number of stft frames
 overlap: ${model.overlap}
 
 source_names:
-  - other
-  - vocals
+  - npi-voc
+  - pi
 target_name: ${model.target_name}
 
 external_datasets:
@@ -27,17 +27,4 @@ aug_params:
   - 0  # maximum time stretch percentage (-x < stretch param < x)
 
 validation_set:
-  - Actions - One Minute Smile
-  - Clara Berry And Wooldog - Waltz For My Victims
-  - Johnny Lokke - Promises & Lies
-  - Patrick Talbot - A Reason To Leave
-  - Triviul - Angelsaint
-  - Alexander Ross - Goodbye Bolero
-  - Fergessen - Nos Palpitants
-  - Leaf - Summerghost
-  - Skelpolu - Human Mistakes
-  - Young Griffo - Pennies
-  - ANiMAL - Rockshow
-  - James May - On The Line
-  - Meaxic - Take A Step
-  - Traffic Experiment - Sirens
+  - one
