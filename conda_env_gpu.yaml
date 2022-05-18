@@ -8,9 +8,8 @@ channels:
 dependencies:
   - python=3.8
   - pip
-  - cudatoolkit=11.1
-  - pytorch
-  - torchvision
+  - cudatoolkit=11.2
+  - pytorch=1.8.1
   - jupyter
   - librosa=0.8
   - ffmpeg
