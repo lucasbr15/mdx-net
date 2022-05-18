@@ -13,7 +13,7 @@ sync_batchnorm: False
 
 max_epochs: 3000
 min_epochs: 100
-check_val_every_n_epoch: 1
+check_val_every_n_epoch: 10
 num_sanity_val_steps: 1
 
 precision: 16
