@@ -7,8 +7,8 @@ gpus: 1
 
 resume_from_checkpoint:
 auto_lr_find: False
-deterministic: True
-accelerator: dp
+deterministic: False
+accelerator: null
 sync_batchnorm: False
 
 max_epochs: 30000
