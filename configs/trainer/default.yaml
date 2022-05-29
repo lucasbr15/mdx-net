@@ -36,7 +36,7 @@ num_sanity_val_steps: 0
 truncated_bptt_steps: null
 resume_from_checkpoint: null
 profiler: null
-benchmark: False
+benchmark: True
 deterministic: False
 reload_dataloaders_every_epoch: False
 auto_lr_find: False
