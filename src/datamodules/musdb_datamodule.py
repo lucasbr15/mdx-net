@@ -36,6 +36,7 @@ class MusdbDataModule(LightningDataModule):
             batch_size: int,
             num_workers: int,
             pin_memory: bool,
+            persistent_workers: bool,
             external_datasets,
             **kwargs,
     ):
@@ -49,6 +50,7 @@ class MusdbDataModule(LightningDataModule):
         self.batch_size = batch_size
         self.num_workers = num_workers
         self.pin_memory = pin_memory
+        self.persistent_workers = persistent_workers
 
         # audio-related
         self.hop_length = hop_length
@@ -89,6 +91,7 @@ class MusdbDataModule(LightningDataModule):
             batch_size=self.batch_size,
             num_workers=self.num_workers,
             pin_memory=self.pin_memory,
+            persistent_workers=self.persistent_workers,
             shuffle=True,
         )
 
@@ -98,5 +101,6 @@ class MusdbDataModule(LightningDataModule):
             batch_size=1,
             num_workers=self.num_workers,
             pin_memory=self.pin_memory,
+            persistent_workers=self.persistent_workers,
             shuffle=False,
         )
