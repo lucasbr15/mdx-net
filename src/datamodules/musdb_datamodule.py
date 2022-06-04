@@ -90,7 +90,8 @@ class MusdbDataModule(LightningDataModule):
             dataset=self.data_train,
             batch_size=self.batch_size,
             num_workers=self.num_workers,
-            pin_memory=self.pin_memory,
+            drop_last=True
+            pin_memory=True,
             persistent_workers=self.persistent_workers,
             shuffle=True,
         )
@@ -100,7 +101,8 @@ class MusdbDataModule(LightningDataModule):
             dataset=self.data_val,
             batch_size=1,
             num_workers=self.num_workers,
-            pin_memory=self.pin_memory,
+            drop_last=False
+            pin_memory=True,
             persistent_workers=self.persistent_workers,
             shuffle=False,
         )
