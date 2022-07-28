@@ -1,6 +1,6 @@
 _target_: src.models.mdxnet.ConvTDFNet
 
-target_name: 'pi'
+target_name: 'vocals'
 
 # model
 num_blocks: 11
