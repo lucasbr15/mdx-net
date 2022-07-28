@@ -83,7 +83,7 @@ class MusdbTrainDataset(MusdbDataset):
                 for track_name in sorted(os.listdir(dataset)):
                     if track_name not in valid_track_names:
                         track_path = dataset.joinpath(track_name)
-                        track_length = load_wav(track_path.joinpath('pi.wav')).shape[-1]
+                        track_length = load_wav(track_path.joinpath('vocals.wav')).shape[-1]
                         metadata.append((track_path, track_length))
                 torch.save(metadata, metadata_cache)
 
