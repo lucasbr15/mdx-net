@@ -40,7 +40,7 @@ class MusdbDataset(Dataset):
     __metaclass__ = ABCMeta
 
     def __init__(self, data_dir, chunk_size):
-        self.source_names = ['npi-voc', 'pi']
+        self.source_names = ['vocals', 'other']
         self.chunk_size = chunk_size
         self.musdb_path = Path(data_dir)
 
