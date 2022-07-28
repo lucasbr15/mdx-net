@@ -12,8 +12,8 @@ dim_t: ${model.dim_t}  # number of stft frames
 overlap: ${model.overlap}
 
 source_names:
-  - npi-voc
-  - pi
+  - vocals
+  - other
 target_name: ${model.target_name}
 
 external_datasets:
