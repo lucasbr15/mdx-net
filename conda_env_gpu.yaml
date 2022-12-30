@@ -12,7 +12,7 @@ dependencies:
   - librosa=0.8
   - ffmpeg
   - onnxruntime
-  - nvidia-apex
+  - nvidia-apex=0.1
 
   - pip:
       - -r requirements.txt
