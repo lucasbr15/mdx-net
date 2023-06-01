@@ -17,7 +17,7 @@ trainer:
   accelerator: 'ddp'
 
 datamodule:
-  batch_size: 36
+  batch_size: 16
   num_workers: 2
   pin_memory: True
   overlap: 3840
