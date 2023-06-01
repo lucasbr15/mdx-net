@@ -3,7 +3,7 @@ _target_: pytorch_lightning.Trainer
 defaults:
   - default
 
-gpus: '0,1'
+gpus: '2'
 resume_from_checkpoint:
 auto_lr_find: False
 deterministic: False
