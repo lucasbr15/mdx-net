@@ -27,25 +27,25 @@ aug_params:
   - 0  # maximum time stretch percentage (-x < stretch param < x)
 
 validation_set:
-  - one
-  - two
-  - three
-  - four
-  - five
-  - six
-  - seven
-  - eight
-  - nine
-  - ten
-  - eleven
-  - twelve
-  - thirteen
-  - fourteen
-  - fifteen
-  - sixteen
-  - seventeen
-  - eighteen
-  - nineteen
-  - twenty
-  - twentyone
-  
+validation_set:
+  - 001_VIPERX
+  - 556_VIPERX
+  - 557_VIPERX
+  - 558_VIPERX
+  - 559_VIPERX
+  - 560_VIPERX
+  - 561_VIPERX
+  - 562_VIPERX
+  - 563_VIPERX
+  - 564_VIPERX
+  - 565_VIPERX
+  - 566_VIPERX
+  - 567_VIPERX
+  - 568_VIPERX
+  - 569_VIPERX
+  - 570_VIPERX
+  - 571_VIPERX
+  - 572_VIPERX
+  - 573_VIPERX
+  - 574_VIPERX
+  - 575_VIPERX
