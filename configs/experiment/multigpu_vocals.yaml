@@ -13,11 +13,11 @@ logger:
     name: 'mdx_vocals'
 
 trainer:
-  gpus: '0,1'
-  accelerator: 'ddp'
+  gpus: '0,1,2,3'
+  accelerator: 'dp'
 
 datamodule:
-  batch_size: 16
+  batch_size: 32
   num_workers: 2
   pin_memory: True
   overlap: 3840
